@@ -30,49 +30,49 @@ header {
 
 .menu {
     
-    display: flex; /* Activează Flexbox pentru alinierea orizontală */
-    justify-content: space-between; /* Distribuie uniform elementele pe întreaga lățime */
-    align-items: center; /* Aliniază elementele pe verticală */
-    background: linear-gradient(135deg, #007bff, #00d103); /* Gradient frumos pentru fundal */
-    padding: 10px 30px; /* Adaugă un spațiu interior plăcut */
-    border-radius: 8px; /* Colțuri rotunjite pentru un look mai plăcut */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    background: linear-gradient(135deg, #007bff, #00d103); 
+    padding: 10px 30px; 
+    border-radius: 8px; 
 }
 
 /* Stiluri pentru titlul meniului */
 .menu h1 {
-    font-size: 24px; /* Mărimea fontului pentru titlu */
-    color: white; /* Culoare albă pentru text */
-    font-family: 'Arial', sans-serif; /* Font modern */
-    margin-right: 50px; /* Spațiu între titlu și meniul de linkuri */
+    font-size: 24px; 
+    color: white; 
+    font-family: 'Arial', sans-serif; 
+    margin-right: 50px; 
 }
 
 /* Stiluri pentru lista de linkuri */
 .menu ul {
-    display: flex; /* Aliniază elementele de listă pe orizontală */
-    list-style: none; /* Elimină bullet points */
+    display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-/* Stiluri pentru fiecare element de listă */
+
 .menu li {
-    margin: 0 20px; /* Adaugă un spațiu între fiecare link */
+    margin: 0 20px; 
 }
 
-/* Stiluri pentru linkuri */
+
 .menu li a {
-    text-decoration: none; /* Elimină sublinierea linkurilor */
-    color: rgb(255, 255, 255); /* Culoare albă pentru text */
-    font-weight: bold; /* Text îngroșat */
-    font-size: 18px; /* Mărimea textului */
-    transition: transform 0.3s ease, color 0.3s ease, font-size 0.3s ease; /* Adaugă tranziții pentru efectele de hover */
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    font-size: 18px; 
+    transition: transform 0.3s ease, color 0.3s ease, font-size 0.3s ease; 
 }
 
-/* Efect la hover pentru linkuri */
+
 .menu li a:hover {
-    color: #f4cc1b; /* Schimbă culoarea textului la hover */
-    transform: scale(1.2); /* Crește dimensiunea textului la hover */
-    cursor: pointer; /* Arată cursorul de tip mână */
+    color: #f4cc1b; 
+    transform: scale(1.2); 
+    cursor: pointer; 
 }
 
 
@@ -82,11 +82,55 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     font-family: 'Arial', sans-serif;
     color: #1eeeee;
     line-height: 1.6;
     padding-top: 8px;
 }
+
+.componente-info {
+    width: 80%; 
+    max-width: 1100px; 
+    min-height: 300px; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f4f4f4eb;
+    border-radius: 8px; 
+    
+}
+
+.componente-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.component {
+    margin-bottom: 30px;
+}
+
+.component h3 {
+    font-size: 20px;
+    color: #233a52;
+    margin-bottom: 10px;
+}
+
+.component img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.component p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
 
 
 nav ul {
@@ -106,10 +150,10 @@ nav ul li a {
 
 .photo-section {
     display: flex;
-    gap: 20px;  /* Spațiu redus între rame */
+    gap: 20px;  
     flex-wrap: wrap;
     padding: 20px 0;
-    justify-content: center;  /* Centrează elementele pe orizontală */
+    justify-content: center; 
 }
 
 .photo-frame {
@@ -118,7 +162,7 @@ nav ul li a {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 0;  /* Elimină marginile suplimentare */
+    margin: 0; 
     background-color: #fff;
 }
 
