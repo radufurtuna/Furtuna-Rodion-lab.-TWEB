@@ -29,19 +29,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll('.photo-frame');
-
-    // Functie de verificare daca secțiunea este vizibilă
     function checkVisibility() {
         const viewportHeight = window.innerHeight;
         sections.forEach(section => {
             const rect = section.getBoundingClientRect();
             if (rect.top >= 0 && rect.top <= viewportHeight) {
-                section.classList.add('visible'); // Adăugăm clasa 'visible' când secțiunea devine vizibilă
+                section.classList.add('visible'); 
             }
         });
     }
-
-    // Verificăm vizibilitatea la încărcarea paginii și la fiecare scroll
     checkVisibility();
     window.addEventListener('scroll', checkVisibility);
 });

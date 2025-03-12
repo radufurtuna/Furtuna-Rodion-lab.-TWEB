@@ -196,7 +196,7 @@ footer {
 #searchBar {
     width: 80%;
     padding: 10px;
-    border: 2px solid #007bff; /* Bordură albastră */
+    border: 2px solid #007bff; 
     border-radius: 8px;
     font-size: 16px;
     outline: none;
@@ -204,7 +204,7 @@ footer {
 }
 
 #searchBar:focus {
-    border-color: #00d103; /* Schimbă culoarea la focus */
+    border-color: #00d103; 
     box-shadow: 0 0 8px rgba(0, 209, 3, 0.6);
 }
 
@@ -224,15 +224,15 @@ button:hover {
     background-color: #5dc25f;
 }
 
-/* Inițial, secțiunile sunt ascunse și deplasate la dreapta */
+
 .photo-frame {
-    opacity: 0; /* Ascunde elementul */
-    transform: translateX(100%); /* Mută elementul la dreapta paginii */
-    transition: transform 1s ease-out, opacity 1s ease-out; /* Animație lină */
+    opacity: 0; 
+    transform: translateX(100%); 
+    transition: transform 1s ease-out, opacity 1s ease-out; 
 }
 
-/* Când secțiunea este vizibilă, apare din dreapta */
+
 .photo-frame.visible {
-    opacity: 1; /* Face elementul vizibil */
-    transform: translateX(0); /* Revine în poziția sa normală */
+    opacity: 1; 
+    transform: translateX(0);
 }
