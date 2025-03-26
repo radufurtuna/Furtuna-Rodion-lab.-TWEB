@@ -40,4 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     checkVisibility();
     window.addEventListener('scroll', checkVisibility);
+    var loginButton = document.getElementById("loginButton");
+    if (loginButton) {
+        loginButton.addEventListener("click", function() {
+            window.location.href = "login.php";
+        });
+    }
 });
+

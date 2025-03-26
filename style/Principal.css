@@ -236,3 +236,22 @@ button:hover {
     opacity: 1; 
     transform: translateX(0);
 }
+
+#authButton {
+    position: absolute;
+    top: 107px;
+    left: 365px;
+    margin: 50px;
+    background-color: #007bff;
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#authButton:hover {
+    background-color: #0056b3; 
+}
