@@ -19,9 +19,9 @@
         <nav class="menu">
             <h1>Tutoriale</h1>
             <ul>
-                <li><a href="index.html">Acasă</a></li>
-                <li><a href="microcontrolere.html">Microcontrolere</a></li>
-                <li><a href="circuite.html">Circuite</a></li>
+                <li><a href="index.php">Acasă</a></li>
+                <li><a href="microcontrolere.php">Microcontrolere</a></li>
+                <li><a href="circuite.php">Circuite</a></li>
             </ul>
         </nav>
     </header>

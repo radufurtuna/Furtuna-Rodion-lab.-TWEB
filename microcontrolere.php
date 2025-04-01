@@ -21,9 +21,9 @@
         <nav class="menu">
             <h1>Microcontrolere</h1>
             <ul>
-                <li><a href="index.html">Acasă</a></li>
-                <li><a href="tutoriale.html">Tutoriale</a></li>
-                <li><a href="circuite.html">Circuite</a></li>
+                <li><a href="index.php">Acasă</a></li>
+                <li><a href="tutoriale.php">Tutoriale</a></li>
+                <li><a href="circuite.php">Circuite</a></li>
             </ul>
         </nav>
     </header>

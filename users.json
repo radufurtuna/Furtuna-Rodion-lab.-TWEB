@@ -14,5 +14,13 @@
     {
         "username": "Radu",
         "password": "$2y$12$bOWzVh1zAbuPlyG57y36CuTYWikRrybskQFoh7xh0nMYxd8b.w\/Om"
+    },
+    {
+        "username": "123",
+        "password": "$2y$12$NOND6VB4Bip7Ex0bJu1H9enpXnavH\/28nQNNRn65RW67tJNgDM19O"
+    },
+    {
+        "username": "1234234",
+        "password": "$2y$12$LaNqpW2fnfohcqGykwOwWu9Td1UzWJHBB\/.fYYUn2vwYPiZB.Szly"
     }
 ]

@@ -23,9 +23,9 @@ $isLoggedIn = isset($_SESSION['username']);
             <nav class="menu">
                 <h1>Pagina principală</h1>
                 <ul>
-                    <li><a href="tutoriale.html">Tutoriale</a></li>
-                    <li><a href="microcontrolere.html">Microcontrolere</a></li>
-                    <li><a href="circuite.html">Circuite</a></li>
+                    <li><a href="tutoriale.php">Tutoriale</a></li>
+                    <li><a href="microcontrolere.php">Microcontrolere</a></li>
+                    <li><a href="circuite.php">Circuite</a></li>
                 </ul>
             </nav>
                     <button id="authButton" onclick="handleAuth()">
@@ -83,7 +83,7 @@ $isLoggedIn = isset($_SESSION['username']);
             <?php if ($isLoggedIn): ?>
                 window.location.href = 'logout.php';
             <?php else: ?>
-                window.location.href = 'login.php';
+                window.location.href = 'login_page.php';
             <?php endif; ?>
         }
     </script>
